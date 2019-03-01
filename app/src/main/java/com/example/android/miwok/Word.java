@@ -5,7 +5,7 @@ public class Word {
     private String mMiwokTranslation;
     private String mEnglishTranslation;
     private int reourceId =-1;
-     int resourceIdOfAudio;
+    private int resourceIdOfAudio;
 
     public Word(String mEnglishTranslation,String mMiwokTranslation,int resourceIdOfAudio){
         this.mEnglishTranslation = mEnglishTranslation;
